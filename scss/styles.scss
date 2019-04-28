@@ -383,6 +383,20 @@ footer {
         font-size: 2.25em;
         margin-bottom: 15px;
     }
+
+    a {
+        background: lighten($base-color, 25%);
+        color: #fff;
+        margin: 6px 6px 6px 6px;
+        padding: 6px 6px 6px 6px;
+        border-radius: 6px;
+        &:hover {
+            color: $base-color-hover;
+            text-decoration: none;
+            background: #eee;
+            border-radius: 4px;
+        }
+    }
 }
 
 #lead-overlay {
@@ -416,12 +430,6 @@ footer {
         border-radius: 50%;
         border: 3px solid lighten($base-color, 25%);
         text-align:center;
-    }
-
-    i {
-        animation: pulsate 1.5s ease;
-        animation-iteration-count: infinite;
-        padding-top: 5px;;
     }
 }
 
@@ -893,6 +901,10 @@ footer {
         h2 {
             font-size: 1.75em;
         }
+    }
+
+    .social1 {
+        font-size: 3.75em;
     }
 
     #about {
